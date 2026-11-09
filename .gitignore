@@ -10,3 +10,19 @@ data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# --- Ajouts ---
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+.env.*
+kaggle.json
+.streamlit/secrets.toml
+airflow/airflow.db
+airflow/airflow.cfg
+airflow/*.pid
