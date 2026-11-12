@@ -17,8 +17,10 @@ TARGET = "Mental_Health_Risk"
 TARGET_ORDER = ["Low", "Medium", "High"]
 ID_COL = "Student_ID"
 
+# Age exclu : pas d'association avec la cible (Spearman 0.005), incoherente avec
+# Year_of_Study, et son retrait ne degrade pas le F1 (reports/age_experiment.csv).
 NUMERIC_FEATURES = [
-    "Age", "Year_of_Study", "Sleep_Hours", "Study_Hours_Per_Week", "GPA",
+    "Year_of_Study", "Sleep_Hours", "Study_Hours_Per_Week", "GPA",
     "Social_Media_Hours", "Screen_Time_Hours", "Financial_Stress",
     "Family_Support", "Attendance_Rate",
 ]

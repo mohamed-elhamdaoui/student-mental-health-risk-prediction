@@ -35,7 +35,7 @@ def test_preprocessor_output_has_no_nan(split, scale):
     prep = build_preprocessor(scale).fit(X_train)
     out = prep.transform(X_test)
     assert not np.isnan(out).any()
-    assert out.shape[1] == 10 + 2 + 2 + 3  # num + ord + bin + one-hot Gender
+    assert out.shape[1] == 9 + 2 + 2 + 3  # num + ord + bin + one-hot Gender
 
 
 def test_imputer_statistics_come_from_train_only(split):
