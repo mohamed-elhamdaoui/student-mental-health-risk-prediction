@@ -26,3 +26,5 @@ kaggle.json
 airflow/airflow.db
 airflow/airflow.cfg
 airflow/*.pid
+# Copie locale de l'ancienne comparaison (avec Age), conservee hors Git
+reports/cv_results_withage.csv
