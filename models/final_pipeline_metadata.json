@@ -1,0 +1,31 @@
+{
+  "model": "LogisticRegression",
+  "params": {
+    "model__C": 100
+  },
+  "features": [
+    "Year_of_Study",
+    "Sleep_Hours",
+    "Study_Hours_Per_Week",
+    "GPA",
+    "Social_Media_Hours",
+    "Screen_Time_Hours",
+    "Financial_Stress",
+    "Family_Support",
+    "Attendance_Rate",
+    "Physical_Activity",
+    "Diet_Quality",
+    "Part_Time_Job",
+    "Previous_Mental_Health_History",
+    "Gender"
+  ],
+  "target_classes": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "trained_on": "train split only (80 %)",
+  "random_state": 42,
+  "sklearn_version": "1.9.1",
+  "disclaimer": "Prototype educatif sur donnees synthetiques ; ni diagnostic ni depistage."
+}
