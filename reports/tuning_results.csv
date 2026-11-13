@@ -1,0 +1,4 @@
+model,f1_cv_mean,f1_cv_std,f1_train_mean,gap_f1_train_minus_cv,search_time_s,best_params
+LogisticRegression,0.754725920260122,0.01897643996609505,0.7669693792234316,0.012243458963309584,5.102479934692383,"{""model__C"": 100}"
+RandomForest,0.6784863562569459,0.028189945617359657,1.0,0.32151364374305413,133.6665394306183,"{""model__max_depth"": null, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 1}"
+HistGradientBoosting,0.6983789127569608,0.018248353445164497,0.8750697480530978,0.17669083529613694,32.47082805633545,"{""model__l2_regularization"": 0.0, ""model__learning_rate"": 0.1, ""model__max_leaf_nodes"": 4, ""model__min_samples_leaf"": 20}"
